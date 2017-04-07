@@ -1,0 +1,232 @@
+a{
+	text-decoration:none;
+	color:blue;
+}
+
+a:hover{
+	color:red;
+}
+
+#logo{
+	width:400px;
+	font-size:80px;
+	background:#3EC7B8;
+	font-family: 'Arvo', serif;
+}
+
+#sublogo{
+	width:400px;
+	margin-left:20px;
+	margin-top:-105px;
+	font-size:20px;
+	background: #3EC7B8;
+	font-family: 'Arvo', serif;
+	font-weight:bold
+	}
+
+#login{
+	width:350px;
+	font-size:13px;
+	font-family: 'Arvo', serif;
+	background: #3EC7B8;
+	margin-top:-100px;
+	margin-left:500px
+	}
+
+.button{
+	width:85px;
+	}
+
+#register{
+	font-family: 'Arvo', serif;
+	margin-top:-150px;
+	margin-left:230px;}
+
+#line{
+	width:10px;
+	margin-top:-90px;
+	margin-left:835px;
+	background: #3EC7B8;
+	}
+
+#reset{
+	width:150px;
+	font-size:15px;
+	background: #3EC7B8;
+	margin-top:-85px;
+	margin-left:850px}
+
+#header{
+	margin-top:-75px;}
+
+#search{
+	width:200px;
+	margin-top:54px;
+	margin-left:1000px;
+	background: #3EC7B8;
+	}
+
+#headline img{
+	width:1150px; 
+	height:70px;
+	margin-top:-9px;
+	background: #3EC7B8;
+	}
+
+#main{
+	margin-top:250px;}
+
+#text{
+	margin-top:-200px;
+	margin-left:300px;
+	margin-right:45%;
+	font-size:19px;
+	font-family: 'Arvo', serif;
+	background: #3EC7B8;
+	text-align: center;
+	}
+	
+#pictures{
+	margin-top:-140px;
+	margin-left:-355px;
+	margin-right:65%;
+	background: #3EC7B8;
+	}
+
+#buttonlink{
+	width:600px;
+	margin-top:-350px;
+	margin-left:570px;
+	font-family: 'Arvo', serif;
+	background: #3EC7B8;
+}
+
+#iconlinkLoan{
+	margin-top:0px;
+	margin-left:100px;
+}
+
+#iconlinkMortgage{
+	margin-top:-86px;
+	margin-left:260px;}
+
+#iconlinkInsurance{
+	margin-top:-86px;
+	margin-left:420px;}
+
+#iconlinkNews{
+	margin-top:50px;
+	margin-left:20px;}
+
+#iconlinkYourAccount{
+	margin-top:-86px;
+	margin-left:180px;}
+
+#iconlinkSupport{
+	margin-top:-86px;
+	margin-left:340px;}
+
+#iconlinkContactus{
+	margin-top:-86px;
+	margin-left:500px;}
+
+#share{
+	width:550px;
+	margin-top:40px;
+	margin-left:850px;
+	font-family: 'Arvo', serif;
+	background: #3EC7B8;
+	text-decoration: none;
+	list-style-type: none;
+	
+	}
+	
+li{
+	display: inline-block;
+	width: 64px; 
+    height: 64px;
+}
+
+#copyright{
+	font-size:14px;
+	margin-top:15px;
+	margin-left:90px;
+	text-align: center;
+	font-family: 'Arvo', serif;
+}
+
+h3{
+	text-align: center;
+}	
+
+body{
+	background-color: #3EC7B8;
+}
+
+.header{
+  background: repeat center center;
+  height: 200px;
+  width: 200px;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #A8CD1B;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
